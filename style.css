@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.circle-nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.circle-nav a {
+  display: block;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 1rem;
+  transition: background 0.3s;
+}
+
+.circle-nav a:hover {
+  background: #555;
+}
